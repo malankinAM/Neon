@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+  }
+  span {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 5rem;
+    font-weight: 700;
+    transition: 0.5s;
+    cursor: pointer;
+    user-select: none;
+  }
+  span.red:hover {
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ff595e,
+                 0 0 15px #ff595e, 0 0 20px #ff595e,
+                 0 0 30px #ff595e, 0 0 40px #ff595e,
+                 0 0 55px #ff595e, 0 0 75px #ff595e ;
+  }
+  span.yellow:hover {
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffca3a,
+                0 0 15px #ffca3a, 0 0 20px #ffca3a,
+                0 0 30px #ffca3a, 0 0 40px #ffca3a,
+                0 0 55px #ffca3a, 0 0 75px #ffca3a;
+  }
+  span.green:hover {
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #8ac926,
+                 0 0 15px #8ac926, 0 0 20px #8ac926,
+                 0 0 30px #8ac926, 0 0 40px #8ac926,
+                 0 0 55px #8ac926, 0 0 75px #8ac926;
+  }
+  span.blue:hover {
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #1982c4,
+                 0 0 15px #1982c4, 0 0 20px #1982c4,
+                 0 0 30px #1982c4, 0 0 40px #1982c4,
+                 0 0 55px #1982c4, 0 0 75px #1982c4;
+  }
